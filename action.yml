@@ -1,6 +1,5 @@
 name: "Serveless Actions Handler"
-
-description: "Serverless Action helps you to dilute the requirement of Serverless functions tests and deployment to specific cloud environment."
+description: "Serverless Action helps to test and deploy Functions to specific cloud environment."
 
 inputs:
     who-to-greet:
