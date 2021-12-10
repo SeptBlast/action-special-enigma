@@ -1,0 +1,17 @@
+name: "Serveless Actions Handler"
+
+description: "Serverless Action helps you to dilute the requirement of Serverless functions tests and deployment to specific cloud environment."
+
+inputs:
+    who-to-greet:
+        description: "Get the Function name whome to handle!!"
+        required: true
+        default: "AWS Lambda"
+
+outputs:
+    time:
+        description: "Time we received Functions greetings!!"
+
+runs:
+    using: "node16"
+    main: "index.js"
