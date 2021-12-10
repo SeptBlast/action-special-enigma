@@ -1,6 +1,10 @@
 name: "Serveless Actions Handler"
 description: "Serverless Action helps to test and deploy Functions to specific cloud environment."
 
+branding:
+    icon: anchor
+    color: gray-dark
+
 inputs:
     who-to-greet:
         description: "Get the Function name whome to handle!!"
