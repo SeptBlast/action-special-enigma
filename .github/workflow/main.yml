@@ -1,0 +1,21 @@
+name: Greet my friends
+
+on: [push]
+
+jobs:
+    greet_the_function:
+        runs-on: ubuntu-latest
+        name: Greet the function friend!!
+
+        steps:
+            - name: Greet Hello Action Step 1
+              id: hello
+              uses: SeptBlast/action-special-enigma@v1
+              with:
+                  name: Hello
+                  message: Hello, {{ $GITHUB_ACTOR }}!
+                  who-to-greet: { { $GITHUB_ACTOR } }
+
+            - name: Greet Greet timestamp Action Step 2
+              id: timestamp
+              run: echo "{{ $GITHUB_ACTOR }}'s timestamp is ${{ steps.hello.outputs.time }}"
