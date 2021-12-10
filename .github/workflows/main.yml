@@ -10,7 +10,7 @@ jobs:
         steps:
             - name: Greet Hello Action Step 1
               id: hello
-              uses: SeptBlast/action-special-enigma@v1
+              uses: SeptBlast/action-special-enigma@v1-beta
               with:
                   name: Hello
                   message: Hello, {{ $GITHUB_ACTOR }}!
