@@ -1,0 +1,30 @@
+{
+  "name": "action-special-enigma",
+  "version": "1.0.1",
+  "description": "Serverless Action to test and deploy the Applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeptBlast/action-special-enigma.git"
+  },
+  "keywords": [
+    "serverless-actions",
+    "lambda",
+    "azure-function",
+    "aws-lambda",
+    "gcp-function"
+  ],
+  "author": "Devesh Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeptBlast/action-special-enigma/issues"
+  },
+  "homepage": "https://github.com/SeptBlast/action-special-enigma#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
