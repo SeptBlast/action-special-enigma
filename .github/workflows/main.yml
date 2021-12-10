@@ -14,7 +14,7 @@ jobs:
               with:
                   name: Hello
                   message: Hello, {{ $GITHUB_ACTOR }}!
-                  who-to-greet: { { $GITHUB_ACTOR } }
+                  who-to-greet: "Devesh Kumar!!"
 
             - name: Greet Greet timestamp Action Step 2
               id: timestamp
